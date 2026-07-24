@@ -1,0 +1,22 @@
+{
+  "intercept": 2.8594157661309563,
+  "coefficients": {
+    "householdSize": 0.05624672047101513,
+    "residence": -1.2499040862660948,
+    "waterSource": -0.8571738057033377,
+    "toiletType": -0.5761357091270112,
+    "hasElectricity": -0.9751412665334781,
+    "hasMobilePhone": -0.6853677638624244,
+    "hasRadio": -0.4933572973553903,
+    "hasTelevision": -0.8601975411437675,
+    "hasRefrigerator": -0.6943282300701942,
+    "hasBicycle": -0.3542315730174148,
+    "hasMotorcycle": -0.5259724630900535,
+    "hasCar": -1.1178124025391154
+  },
+  "trained": true,
+  "train_accuracy": 0.8041,
+  "test_accuracy": 0.7863,
+  "n_train": 3200,
+  "n_test": 800
+}
