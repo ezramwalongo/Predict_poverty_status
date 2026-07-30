@@ -1,19 +1,3 @@
-"""
-Poverty Predictor Model - Logistic Regression (TDHS 2022)
-
-This module loads a trained logistic-regression model (intercept + coefficients)
-from `models/model_coefficients.json`, which is produced by `train_model.py`
-using a real training dataset placed at `data/training_data.csv`.
-
-If that file has not been generated yet (i.e. no training dataset has been
-supplied), a documented FALLBACK coefficient set is used instead so the app
-keeps working. The fallback is intentionally calibrated so that BOTH "poor"
-and "non-poor" outcomes are reachable (unlike the previous hardcoded version,
-which used only negative coefficients and therefore could never classify a
-household as "poor"). Once a real dataset is supplied and `train_model.py`
-is run, the learned coefficients automatically replace the fallback.
-"""
-
 import json
 import os
 import numpy as np
