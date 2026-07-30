@@ -1,15 +1,3 @@
-"""
-Simple username/password authentication for the Poverty Predictor app.
-
-Users are stored in data/users.csv as: username, salt, password_hash
-Passwords are never stored in plain text — each password is hashed with a
-per-user random salt (SHA-256).
-
-Rules enforced here (per app requirements):
-  - Username = the user's first name (letters only, no spaces/digits).
-  - Password = exactly 8 digits (numeric only).
-"""
-
 import os
 import re
 import hashlib
